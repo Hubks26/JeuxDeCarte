@@ -9,7 +9,7 @@ def main():
 		sm.run()
 		sm.goodbye()
 
-	except:
+	except NotImplementedError:
 		print("Une erreur est survenue")
 
 
