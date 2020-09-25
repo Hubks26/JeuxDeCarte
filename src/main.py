@@ -1,6 +1,5 @@
 from display.StateManager import StateManager
 
-
 def main():
 	try:
 		sm = StateManager()
@@ -10,8 +9,7 @@ def main():
 		sm.goodbye()
 
 	except NotImplementedError:
-		print("Une erreur est survenue")
-
+		print("\nCette fonctionnalité n'est pas encore implémentée")
 
 if __name__ == '__main__':
 	main()
